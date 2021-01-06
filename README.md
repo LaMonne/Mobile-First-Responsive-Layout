@@ -1,2 +1,2 @@
-# Mobile-First-Responsive-Layout
-Team Treehouse Unit 2 Project
+# Unit-2
+Team Tree House Unit 2 Project

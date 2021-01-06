@@ -1,0 +1,100 @@
+/* Base Element Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+.title {
+    text-align: center;
+}
+
+.name {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: .95em;
+    margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+    color: black;
+}
+
+h2,
+h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Navigation */
+
+.name {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.name a,
+.main-nav a {
+   text-align: center;
+   display: block;
+   padding: 10px 15px; 
+   margin-top: 5px;
+}
+
+.main-nav a {
+    font-size: .95em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    color: blue;
+}
+
+/* Containers */
+
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: whitesmoke;
+}
+
+.banner,
+.main-footer {
+    text-align: center;
+}
+
+.banner {
+   color: black;
+   background: whitesmoke; 
+   margin-top: 50px;
+   margin-bottom: 50px;
+   
+}
+
