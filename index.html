@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Responsive Mobile Website</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="normalize.css">
+        <link href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <title>Responsive Mobile Website</title>
     </head>
             <body>
                 <header class="main-header">
-                    <div class="container">
-                        <h1 class="title">Student Name</a></h1>
-                        <h1 class="name"><a href="#">Home</a></h1>
-                        <h1 class="name"><a href="#">Portfolio</a></h1>
-                        <h1 class="name"><a href="#">Contact</a></h1>
+                       <nav>
+                         <h1><a href="#">Student Name</a></h1>
+                         <ul class="top-nav">
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">Portfolio</a></li>
+                           <li><a href="#">Contact</a></li>
+                           </ul>
+                        </nav>
                     </div>
                 </header>
               
                 <div class="banner">
-                   <img class="profile" src="img/responsive-layout-profile.png" alt="Profile Picture">
+                   <img class="center" src="img/responsive-layout-profile.png" alt="Profile Picture" style="width:325px;height:200px;">
                    <p>Hi! I'm a front-end developer who loves<br> 
                       responsive design and css.I recently<br> 
                       finished a degree in front-end web<br> 
@@ -27,8 +33,10 @@
                    </div>
                    
                    <div>
-                   <h2>Portfolio</h2>
-                   <img class="Marketing" src="img/portfolio-1.png" alt="Marketing Image">
+                   <h2 class="main">Portfolio</h2>
+                   <br>
+                   <img class="left" src="img/portfolio-1.png" alt="Marketing Image" style="width:600px;height:350px;">
+                   
                    <h2>Marketing Page</h2>
                    <p>This project shows the front page of a<br>
                       marketing website meant for a specific<br>
@@ -36,7 +44,8 @@
                    </div>
 
                    <div>
-                    <img class="Search" src="img/portfolio-2.png" alt="Search Image">
+                    <img class="center" src="img/portfolio-2.png" alt="Search Image" style="width:600px;height:350px;">
+                   
                     <h2>Search Page</h2>
                     <p>This project searches through a specific<br>
                        database to find information that the<br>
@@ -44,34 +53,48 @@
                     </div>
 
                     <div>
-                    <img class="Travel" src="img/portfolio-3.png" alt="Travel Image">
+                    <img class="center" src="img/portfolio-3.png" alt="Travel Image" style="width:600px;height:350px;" >
+                   
                     <h2>Travel App</h2>
                     <p>This project compares travel times<br>
                        based on different transportation<br>
                        methods and tells you the best one.<br></p>
-                    <img class="Map" src="img/portfolio-4.png" alt="Map Image">
+                    <img class="right" src="img/portfolio-4.png" alt="Map Image" style="width:600px;height:350px;">
+                    </div>
+                    
                     <h2>Map of Favorite Spots</h2>
                     <p>This project uses mapping apis to plot<br>
                        points for my favorite spots in the city<br>
                        for a do-it-yourself walking tour.<br></p>
-                    <img class="Gallery" src="img/portfolio-5.png" alt="Photo Gallery Image">
+                    <img class="left" src="img/portfolio-5.png" alt="Photo Gallery Image"style="width:600px;height:350px;" >
+                   
                     <h2>Photo Gallery</h2>
                     <p>This project shows pictures from a<br>
                        recent trip to the viewer and allows<br>
                        them to easily navigate through photos.<br></p>
-                    <img class="Calculator" src="img/portfolio-6.png" alt="Calculator image">
+                    <img class="right" src="img/portfolio-6.png" alt="Calculator image" style="width:600px;height:350px;">
+                   
+                    <div class="adjust">
                     <h2>Calculator</h2>
                     <p>Someone can enter in the numbers<br>
                       they want, and press the big blue<br>
                       button and get the result.<br></p>
+                    </div>
+                      
                 
                 <footer>
-                 <h1>Contact</h1>   
-                 <p>If you're interested in chatting or want more information about what i've been working on, i'd love to hear from you!</p>
+                 <h2>CONTACT</h2>  
+                 <p>If you're interested in chatting or want <br>
+                  more information about what i've been <br>
+                  working on, i'd love to hear from you!<br></p>
                  <p>Phone +1 (111) 555-1234</p>
-                 <p>Email email@yoursite.com</p>
-                 <p>Student Name</p>
-                 <p>BACK TO TOP</p>
+                 <p>Email   <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+
+               <hr>
+               <div class="main-footer">
+               <p>STUDENT NAME</p>
+               <p>BACK TO TOP</p>
+               </div>
                 </footer>
 
                 
