@@ -5,20 +5,55 @@
 }
 
 body {
-    font-family: 'Varela Round', sans-serif;
-    line-height: 1.6;
-    color: black;
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.title {
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: .05em;
+    background-color: whitesmoke;
+    padding: 25px;
+}
+
+h1, .top-nav {
     text-align: center;
 }
 
-.name {
-    background-color: white;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.top-nav, .top-nav li {
+    width: 100%;
 }
+
+h1 a, .top-nav a {
+    color: #000;
+    
+}
+
+.top-nav {
+    margin-top: 30px;
+}
+
+.top-nav li {
+    padding: 10px 0;
+    margin: 5px auto;
+    background-color: white;
+}
+
+.top-nav a {
+    text-transform: uppercase;
+}
+
 
 p {
     font-size: .95em;
@@ -26,58 +61,33 @@ p {
     text-align: center;
 }
 
-h2,
-h3,
-a {
+.main {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2, .a {
     color: black;
 }
 
-h2,
-h3 {
+h2 {
     margin-top: 0;
 }
 
-a {
-    text-decoration: none;
-}
 
 img {
     max-width: 100%;
 }
 
 h2 {
-    text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 /* Navigation */
 
-.name {
-    font-size: 1.25em;
-    margin: 0;
-}
 
-.main-nav {
-    margin-top: 5px;
-}
 
-.name a,
-.main-nav a {
-   text-align: center;
-   display: block;
-   padding: 10px 15px; 
-   margin-top: 5px;
-}
 
-.main-nav a {
-    font-size: .95em;
-    color: black;
-    text-transform: uppercase;
-}
-
-.main-nav a:hover {
-    color: blue;
-}
 
 /* Containers */
 
@@ -104,10 +114,89 @@ h2 {
 
 footer {
     text-align: center;
+    color: black;
+    background: whitesmoke; 
+    padding: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;  
 }
 
-/* Images */
+.adjust {
+    padding-bottom: 40px;
+}
 
-img {
+
+/* Images */
+.left {
+    display: block;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.right {
+    display: block;
+    text-align: right;
+}
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+/* Media Query */
+
+@media (min-width: 320px) { 
+    h2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .top-nav {
+        margin-top: 0;
+        height: 1px;
+    }
+
+    .top-nav li {
+        display: inline-block;
+        width: auto;
+        margin-right: 15px;
+        background-color: transparent;
+    }
+
+    .top-nav li:last-child {
+        margin-right: 0;
+    }
+
+    .top-nav a {
+        color: black;
+    }  
+
+    .banner img {
+        float: right;
+    }
+
     
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        float: left;
+        text-align: left;
+        height: 12px;
+        line-height: 12px;
+    }
+
+    .top-nav {
+        text-align: right;
+    }
+
+
 }
